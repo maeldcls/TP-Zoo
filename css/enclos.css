@@ -1,0 +1,135 @@
+html,body{
+    height: 100%;
+    min-height: 100vh;
+    margin:0;
+    padding:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+   font-family: 'Minecraft';
+}
+@font-face {
+    font-family: Minecraft;
+    src: url(../upload/font/Minecraft.ttf);
+}
+
+form{
+    color:white;
+}
+.animal>img{
+    width:150px;
+    width:150px;
+
+}
+
+.animal{
+    width:200px;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: auto;
+    width:100%;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.infos>*{
+    color:white;
+}
+.enclos{
+    display: flex;
+    width:100%;
+    height:100vh;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width:80%;
+}
+.aside{
+    background-color: #041014;
+    width:20%;
+    height:100%;
+    opacity: 80%;
+    color:white;
+}
+.bottom{
+    width: 100%;
+    height: 150px;
+
+    opacity: 90%;
+    
+}
+.aside>form{
+    padding:3px;
+}
+.aside>.statusEnclos{
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: auto;
+    border: 1px solid white;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.return{
+    color:black;
+    background-color: white;
+    opacity: 90%;
+    padding:5px;
+    margin-top:50px;
+
+}
+.return:hover{
+    color:grey;
+}
+input[type=submit]{
+    background-color: gray;
+    color:white;
+    cursor: pointer;
+    margin-left:2px;
+}
+input[type=submit]:hover{
+    background-color: black;
+    color:white;
+}
+.aside>*{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:10px;
+}
+
+select{
+    background-color: #041014;
+    color:white;
+    cursor:pointer;
+}
+
+
+  @media only screen and (max-width: 768px) {
+    
+    .enclos{
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .aside{
+        width:100%;
+    }
+    .main{
+        width:100%;
+    }
+    .container{
+        justify-content:center;
+        width:100%;
+    }
+  }
